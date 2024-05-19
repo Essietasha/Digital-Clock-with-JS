@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/4953029.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+<body>
+    <section class="container">
+        <div class="error" id='errorMessage'></div>
+        <div class="gridCont">
+            <div class="gridBox gridBoxI">
+
+                <div class="welcomeBack">
+                    <h1>Digital Clock!</h1>
+                    <p class='p1'>Everything on the planet revolves around Time!</p>
+                </div>
+
+                <form id="form" class="emailPasswordCont">
+                    <div class="profileLogo"> <img class="img" src="images/icons8-person-64 (1).png"> </div>
+
+                    <div class="mailPBoxGrid mailPBoxGrid1">
+                        <div class="boxgrid icon"> <img src="images/icons8-person-30.png" class="iconsimg"></div>
+                        <div class="boxgrid textPbox">
+                            <input class='textPbox' type="text" placeholder="Username" id="nameInput"/>
+                        </div>
+                    </div>
+                        
+                    <div class="mailPBoxGrid mailPBoxGrid2">
+                        <div class="boxgrid icon"> <img src="images/icons8-locked-30.png" class="iconsimg"> </div>
+                        <div class="boxgrid ">
+                            <input class='textPbox' type="password" placeholder="Password" id="passwordInput"/>
+                        </div>
+                    </div>
+
+                    <div class="remeberMeGrid">
+                        <div class="rememberMe">
+                            <label for="remember-me" class='rmb'><input id="remember-me" type="checkbox"  name="remember-me" />Remember me</label>
+                        </div>
+                        <div class="forgotPassword">
+                            <a href="" class='fp'>Forgotten Password?</a>
+                        </div>
+                    </div>
+                    <div class="btn"> <button type="submit" class='loginBtn' id="logbtn">Login</button> </div>
+                </form>
+
+
+            </div>
+
+            <div class="gridBox imageCont">
+                <div class="rightimg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

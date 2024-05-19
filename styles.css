@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+}
+
+.loginMainCont{
+  height: 100%;
+  width: 100%;
+}
+
+.gridCont{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  background-color: #efebd9;
+}
+
+.profileLogo{
+    background-color: #211951;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8%;
+    left: 40%;
+}
+
+.img{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.gridBoxI{
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.logoP{
+  font-size: 40px;
+  color: #211951;
+  position: absolute;
+  top: -11px;
+  left: 130px;
+}
+
+h1{
+  font-size: 45px;
+  color: #313030;
+  margin-bottom: 8px;
+}
+
+.p1{
+  color: #464343;
+  font-weight: 600;
+  font-size: 14px;
+}
+.error{
+  position: absolute;
+  top: 1%;
+  left: 10%;
+}
+
+
+.errorMessage{
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: red;
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.emailPasswordCont{
+  margin-top: 50px;
+  height: 230px;
+  width: 60%;
+  background-color: #E2DFD0;
+  border: 1px soild transparent;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.mailPBoxGrid1{
+    margin-top: 20px;
+}
+
+.mailPBoxGrid{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  height: 32px;
+  background-color: #211951;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.mailPBoxGrid2{
+  margin-top: 10px;
+}
+
+.textPbox{
+  background-color: #fff;
+  height: 31px;
+  width: 200px;
+  color: #111;
+  border: 1px solid #fff;
+  outline: none;
+}
+
+.icons{
+  color: #fff;
+}
+
+.iconsimg{
+    height: 20px;
+    margin: 0px 2px;
+    /* margin-left: 10px; */
+
+}
+
+.remeberMeGrid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 12px;
+  margin-left: 10px;
+}
+
+.rmb{
+  color: #211951;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#remember-me{
+  margin-right: 5px;
+}
+
+.fp{
+  color: #575353;
+  font-size: 14px;
+}
+
+
+.fp:hover{
+  color: #064ACB;
+}
+
+.btn{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 30px;
+}
+
+.loginBtn{
+height: 100%;
+width: 100%;
+background-color:#170d4f;
+color: #fff;
+font-size: 16px;
+border: 1px solid transparent;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.imageCont{
+  background-image: url(https://img.freepik.com/free-photo/planet-earth-background_23-2150564685.jpg?t=st=1715956143~exp=1715959743~hmac=6ccc927264e78f53a1b10d12e9c0668c0b53a32e077b6cf7950b629051c98d03&w=1060);
+  object-fit: cover;
+  height: 100%;
+  
+}
+
+/* #F59DAD, */
+.rightimg h1{
+    color: #F26A3A;
+    font-size: 30px;
+}
+.secWelcome{
+  background-color: #1A4D2E;
+  /* background: linear-gradient(90deg, #F4A2E4, #F26A3A); */
+  width: 100%; 
+  min-height: 100vh; 
+  /* display: grid;  */
+  /* place-content: center;  */
+}
+
+#greeting{
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+.greetings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#time{
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.btnClickHere{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 16px 170px;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  color: #111;
+  margin-left: 26%;
+  margin-top: 20%;
+}
+
+.btnClickHere:hover{
+  border: 1px solid #fff;
+}
+
+.clockLogo{
+  background-color: #170d4f;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.returnBtn{
+  width: 5%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  position: fixed;
+  top: 3%;
+  right: 0.7%;
+}
+
+.return{
+  color: #E2DFD0;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 12px;
+
+}
+
+.return:hover{
+  background-color: #333;
+  color: #fff;
+  transition: 1s ease-in;
+}
